@@ -21,7 +21,7 @@ function App() {
         <h3>our users</h3>
         {users
           ? users.map((user) => (
-              <div style={{ margin: 20 }}>
+              <div style={{ margin: 20, backgroundColor: "pink", padding: 15 }}>
                 <p>name : {user.name}</p>
                 <p>email : {user.email}</p>
               </div>
